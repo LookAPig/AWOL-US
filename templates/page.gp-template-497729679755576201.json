@@ -1,0 +1,136 @@
+{
+  "layout": "theme.gempages.blank",
+  "sections": {
+    "gp_section_497729679890187145": {
+      "type": "gp-section-497729679890187145",
+      "settings": {
+        "section_preload": "true"
+      }
+    },
+    "gp_section_497729679822685065": {
+      "type": "gp-section-497729679822685065",
+      "settings": {}
+    },
+    "gp_section_497729679906571145": {
+      "type": "gp-section-497729679906571145",
+      "settings": {}
+    },
+    "gp_section_497729679856239497": {
+      "type": "gp-section-497729679856239497",
+      "settings": {}
+    },
+    "gp_section_498910542308573981": {
+      "type": "gp-section-498910542308573981",
+      "settings": {}
+    },
+    "gp_section_497733956318266249": {
+      "type": "gp-section-497733956318266249",
+      "settings": {}
+    },
+    "gp_section_499340848773727462": {
+      "type": "gp-section-499340848773727462",
+      "settings": {}
+    },
+    "gp_global_section_498912058650133277-1": {
+      "type": "gp-global-section-498912058650133277",
+      "settings": {
+        "section_preload": "global"
+      }
+    },
+    "gp_section_497735592835024008": {
+      "type": "gp-section-497735592835024008",
+      "settings": {}
+    },
+    "gp_section_497765496377049993": {
+      "type": "gp-section-497765496377049993",
+      "settings": {}
+    },
+    "gp_section_497729679923348361": {
+      "type": "gp-section-497729679923348361",
+      "settings": {}
+    },
+    "gp_section_497729679873147785": {
+      "type": "gp-section-497729679873147785",
+      "settings": {}
+    },
+    "gp_section_498911019737810150": {
+      "type": "gp-section-498911019737810150",
+      "settings": {}
+    },
+    "gp_section_497729679856305033": {
+      "type": "gp-section-497729679856305033",
+      "settings": {}
+    },
+    "gp_section_497729679873082249": {
+      "type": "gp-section-497729679873082249",
+      "settings": {}
+    },
+    "gp_section_497767054292550792": {
+      "type": "gp-section-497767054292550792",
+      "settings": {}
+    },
+    "gp_section_497741574063522952": {
+      "type": "gp-section-497741574063522952",
+      "settings": {}
+    },
+    "gp_section_497729679906636681": {
+      "type": "gp-section-497729679906636681",
+      "settings": {}
+    },
+    "gp_section_497730204815328137": {
+      "type": "gp-section-497730204815328137",
+      "settings": {}
+    },
+    "gp_section_497729679839527817": {
+      "type": "gp-section-497729679839527817",
+      "settings": {}
+    },
+    "gp_section_497729679890121609": {
+      "type": "gp-section-497729679890121609",
+      "settings": {}
+    },
+    "gp_section_497729679839462281": {
+      "type": "gp-section-497729679839462281",
+      "settings": {}
+    },
+    "gp_section_497765073909973897": {
+      "type": "gp-section-497765073909973897",
+      "settings": {}
+    },
+    "gp_section_497766548593706120": {
+      "type": "gp-section-497766548593706120",
+      "settings": {}
+    },
+    "gp_section_497729679940125577": {
+      "type": "gp-section-497729679940125577",
+      "settings": {}
+    }
+  },
+  "order": [
+    "gp_section_497729679890187145",
+    "gp_section_497729679822685065",
+    "gp_section_497729679906571145",
+    "gp_section_497729679856239497",
+    "gp_section_498910542308573981",
+    "gp_section_497733956318266249",
+    "gp_section_499340848773727462",
+    "gp_global_section_498912058650133277-1",
+    "gp_section_497735592835024008",
+    "gp_section_497765496377049993",
+    "gp_section_497729679923348361",
+    "gp_section_497729679873147785",
+    "gp_section_498911019737810150",
+    "gp_section_497729679856305033",
+    "gp_section_497729679873082249",
+    "gp_section_497767054292550792",
+    "gp_section_497741574063522952",
+    "gp_section_497729679906636681",
+    "gp_section_497730204815328137",
+    "gp_section_497729679839527817",
+    "gp_section_497729679890121609",
+    "gp_section_497729679839462281",
+    "gp_section_497765073909973897",
+    "gp_section_497766548593706120",
+    "gp_section_497729679940125577"
+  ]
+}

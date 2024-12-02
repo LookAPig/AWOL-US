@@ -1,0 +1,138 @@
+{
+  "layout": "theme.gempages.blank",
+  "sections": {
+    "gp_section_492055637887288206": {
+      "type": "gp-section-492055637887288206",
+      "settings": {
+        "section_preload": "true"
+      }
+    },
+    "gp_section_492055637887288442": {
+      "type": "gp-section-492055637887288442",
+      "settings": {}
+    },
+    "gp_section_497729302721201033": {
+      "type": "gp-section-497729302721201033",
+      "settings": {}
+    },
+    "gp_section_492055639313351802": {
+      "type": "gp-section-492055639313351802",
+      "settings": {}
+    },
+    "gp_section_499346066873779430": {
+      "type": "gp-section-499346066873779430",
+      "settings": {}
+    },
+    "gp_section_497768003077669769": {
+      "type": "gp-section-497768003077669769",
+      "settings": {}
+    },
+    "gp_section_492055639279862670": {
+      "type": "gp-section-492055639279862670",
+      "settings": {}
+    },
+    "gp_global_section_498912058650133277-1": {
+      "type": "gp-global-section-498912058650133277",
+      "settings": {
+        "section_preload": "global"
+      }
+    },
+    "gp_section_497728434416386953": {
+      "type": "gp-section-497728434416386953",
+      "settings": {}
+    },
+    "gp_section_492055638793258106": {
+      "type": "gp-section-492055638793258106",
+      "settings": {}
+    },
+    "gp_global_section_498910328482956518-2": {
+      "type": "gp-global-section-498910328482956518",
+      "settings": {
+        "section_preload": "global"
+      }
+    },
+    "gp_section_492055638793323406": {
+      "type": "gp-section-492055638793323406",
+      "settings": {}
+    },
+    "gp_section_492055638793257870": {
+      "type": "gp-section-492055638793257870",
+      "settings": {}
+    },
+    "gp_section_492805109328119007": {
+      "type": "gp-section-492805109328119007",
+      "settings": {}
+    },
+    "gp_section_492055639279797134": {
+      "type": "gp-section-492055639279797134",
+      "settings": {}
+    },
+    "gp_section_497741004158272648": {
+      "type": "gp-section-497741004158272648",
+      "settings": {}
+    },
+    "gp_section_492055639279797370": {
+      "type": "gp-section-492055639279797370",
+      "settings": {}
+    },
+    "gp_section_497723217423696777": {
+      "type": "gp-section-497723217423696777",
+      "settings": {}
+    },
+    "gp_section_497728081272767369": {
+      "type": "gp-section-497728081272767369",
+      "settings": {}
+    },
+    "gp_section_497728531690685321": {
+      "type": "gp-section-497728531690685321",
+      "settings": {}
+    },
+    "gp_section_492055638340273038": {
+      "type": "gp-section-492055638340273038",
+      "settings": {}
+    },
+    "gp_section_492055639246242702": {
+      "type": "gp-section-492055639246242702",
+      "settings": {}
+    },
+    "gp_section_492055639414015098": {
+      "type": "gp-section-492055639414015098",
+      "settings": {}
+    },
+    "gp_section_498901765509350173": {
+      "type": "gp-section-498901765509350173",
+      "settings": {}
+    },
+    "gp_section_498901982203872486": {
+      "type": "gp-section-498901982203872486",
+      "settings": {}
+    }
+  },
+  "order": [
+    "gp_section_492055637887288206",
+    "gp_section_492055637887288442",
+    "gp_section_497729302721201033",
+    "gp_section_492055639313351802",
+    "gp_section_499346066873779430",
+    "gp_section_497768003077669769",
+    "gp_section_492055639279862670",
+    "gp_global_section_498912058650133277-1",
+    "gp_section_497728434416386953",
+    "gp_section_492055638793258106",
+    "gp_global_section_498910328482956518-2",
+    "gp_section_492055638793323406",
+    "gp_section_492055638793257870",
+    "gp_section_492805109328119007",
+    "gp_section_492055639279797134",
+    "gp_section_497741004158272648",
+    "gp_section_492055639279797370",
+    "gp_section_497723217423696777",
+    "gp_section_497728081272767369",
+    "gp_section_497728531690685321",
+    "gp_section_492055638340273038",
+    "gp_section_492055639246242702",
+    "gp_section_492055639414015098",
+    "gp_section_498901765509350173",
+    "gp_section_498901982203872486"
+  ]
+}

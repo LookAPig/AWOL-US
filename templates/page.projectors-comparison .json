@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_ciQmFg": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_ciQmFg"
+  ]
+}

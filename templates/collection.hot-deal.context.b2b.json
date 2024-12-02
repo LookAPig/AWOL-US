@@ -1,0 +1,7 @@
+{
+  "parent": "collection.hot-deal.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {}
+}

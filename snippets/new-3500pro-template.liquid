@@ -1,0 +1,551 @@
+<style>
+  @font-face {
+    font-family: "Manrope";
+    src: url("https://cdn.shopify.com/s/files/1/0554/7445/4576/files/Manrope.woff2?v=1718257995") format("woff2-variations");
+    font-weight: 200 800;
+  }
+  .mobile {
+    display: none;
+  }
+  .w_1200 {
+    max-width: 1200px;
+  }
+  .w_1440 {
+    max-width: 1440px;
+  }
+  .w_1800 {
+    max-width: 1800px;
+  }
+  .margin_center {
+    margin: 0 auto;
+  }
+  .margin-top-40 {
+    margin-top: 44px;
+  }
+  .margin-top-60 {
+    margin-top: 60px;
+  }
+  .margin-top-120 {
+    margin-top: 120px;
+  }
+  #Description .container{
+    padding: 0!important;
+    max-width: 100%;
+    width: 100%;
+  }
+  .ltv-3500pro_container {
+    width: 100%;
+    background-color: #000;
+  }
+  .ltv-3500pro_container img.first_imag {
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+  .ltv-3500pro_container img.normal_img.mobile {
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+  .ltv-3500pro_container img.normal_img.no_padding.mobile {
+    padding: 0px;
+  }
+  .ltv-3500pro_costomer_reviews {
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+    padding: 0 16px;
+    .header {
+      color: #FFF;     
+      font-family: "Manrope", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 115%; /* 27.6px */
+      letter-spacing: -0.72px;
+      text-transform: capitalize;
+      margin-bottom: 28px;
+    }
+    iframe {
+      width: 100%;
+      height: 650px;
+    }
+    .youtube_container {
+      position: relative;
+      .swiper_container {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        width: 100%;
+        .swiper-button-prev,.swiper-pagination,.swiper-button-next {
+          position: unset;
+          width: fit-content;
+          margin: 0;
+          display: block;
+          height: auto;
+        }
+        .swiper-button-next, .swiper-button-prev {
+          color: white;
+        }
+        .swiper-button-next:after, .swiper-button-prev:after {
+          font-size: 14px;
+          font-weight: 800;
+        }
+        .swiper-pagination-bullet {
+          width: 10px;
+          height: 10px;
+          background: rgba(255, 255, 255, 1);
+          transition: all 0.3s ease;
+          border-radius: 20px;
+        }
+        .swiper-pagination-bullet-active {
+          width: 40px;
+          background: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+  .ltv-3500pro_container_inner.one {
+    .swiper_container {
+      top: 83%;
+    }
+  }
+  .ltv-3500pro_container_inner {
+    margin-top: 120px;
+    .swiper_container {
+      overflow-x: scroll;
+      position: absolute;
+      left: 50%;
+      top: 83%;
+      transform: translateX(-50%);
+      width: auto;
+      /* padding-bottom: 6px; */
+      z-index: 1;
+      &::-webkit-scrollbar {
+        display: none;
+        height: 2px!important;; /* 对于水平滚动条，设置高度 */
+        background: #D9D9D9!important;; /* 滚动条的背景色 */
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #F00!important; /* 滑块的颜色 */
+      }
+    }
+    .swiper-pagination {
+      position: unset;
+      width: fit-content;
+      margin: 0;
+      display: flex;
+      height: auto;
+      width: max-content;
+      gap: 60px;
+    }
+    .swiper-pagination::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 100%;
+      background: #D9D9D9;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+      /* border: none; */
+      width: 100%;
+      color: #FFF;
+      text-align: center;  
+      /* H4-mobile */
+      font-family: "Manrope", sans-serif;;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 115%; /* 27.6px */
+      /* letter-spacing: -0.72px; */
+      text-transform: capitalize;
+      white-space: nowrap;
+      height: auto;
+      border-radius: 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #D9D9D9;
+      margin: 0;
+      opacity: 0.5;
+      transition: all 0.5s ease;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      border-bottom: 2px solid red;
+      background: none;
+      opacity: 1;
+    }
+    .item_desc {
+      color: #FFF;
+      text-align: center;  
+      /* Body-Medium-Mobile */
+      font-family: "Manrope", sans-serif;;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 24px */
+      letter-spacing: -0.16px;
+      text-transform: capitalize;
+      margin-top: 120px;
+    }
+  }
+  .choose_img {
+    margin-top: 120px;
+    padding: 0 0 120px 0;
+    .header {
+      color: #FFF;     
+      font-family: "Manrope", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 115%; /* 27.6px */
+      letter-spacing: -0.72px;
+      text-transform: capitalize;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+    .choose_img_container {
+      width: 100%;
+    }
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .pc {display: none;}
+    .mobile {display: block;}
+    .margin-top-60,
+    .margin-top-40 {
+      margin-top: auto;
+    }
+    .margin-top-120 {
+      margin-top: auto;
+    }
+    .ltv-3500pro_costomer_reviews {
+      .header {
+        font-size: 24px;
+      }
+    }
+    .ltv-3500pro_container img.first_imag {
+      padding: 16px 16px 0 16px;
+      margin-top: 0;
+    }
+    .ltv-3500pro_costomer_reviews {
+      margin-top: 60px;
+      iframe {
+        height: 250px;
+      }
+    }
+    .ltv-3500pro_container_inner.one {
+      .swiper_container {
+        top: 60%;   
+      }
+    }
+    .ltv-3500pro_container_inner {
+      margin-top: 60px;
+      padding: 0 16px;
+      .swiper_container {
+        overflow-x: scroll;
+        position: absolute;
+        transform: translateX(0%);
+        top: 55%;
+        left: 0;
+        width: 380px;
+        padding-bottom: 6px;
+        z-index: 1;
+        &::-webkit-scrollbar {
+          height: 2px!important;; /* 对于水平滚动条，设置高度 */
+          background: #D9D9D9!important;; /* 滚动条的背景色 */
+        }
+        &::-webkit-scrollbar-thumb {
+          background: #F00!important; /* 滑块的颜色 */
+        }
+      }
+      .swiper-pagination {
+        position: unset;
+        width: fit-content;
+        margin: 0;
+        display: flex;
+        height: auto;
+        width: max-content;
+        gap: 30px;
+      }
+      .swiper-pagination-clickable .swiper-pagination-bullet {
+        border: none;
+        width: 100%;
+        color: #FFF;
+        text-align: center;  
+        /* H4-mobile */
+        font-family: "Manrope", sans-serif;;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 115%; /* 27.6px */
+        letter-spacing: -0.72px;
+        text-transform: capitalize;
+        white-space: nowrap;
+        /* height: 24px; */
+      }
+      .item_desc {
+        color: #FFF;
+        text-align: center;  
+        /* Body-Medium-Mobile */
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.16px;
+        text-transform: capitalize;
+        margin-top: 70px;
+      }
+    }
+    .ltv-3500pro_costomer_reviews {
+      .youtube_container {
+        .swiper_container {margin-top: 0;}
+      }
+    }
+    .choose_img {
+      margin-top: 60px;
+      padding: 0 16px 60px 16px;
+      .header {
+        font-size: 24px;
+      }
+      .choose_img_container {
+        width: 100%;
+        &::-webkit-scrollbar {
+          height: 6px!important;; /* 对于水平滚动条，设置高度 */
+          background: #D9D9D9!important;; /* 滚动条的背景色 */
+        }
+        &::-webkit-scrollbar-thumb {
+          background: linear-gradient(90deg, #D5FAFA 0%, #6B99B5 100%);
+        }
+        overflow-x: scroll;
+      }
+      img {
+        max-width: 600px;
+        width: 600px;
+      }
+    }
+  }
+</style>
+<div class="ltv-3500pro_container">
+  <div class="w_1800 margin_center">
+    <img class="first_imag pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_01_pc.webp?v=1732003101" alt="">
+    <img class="first_imag mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_01.webp?v=1731897470" alt="">
+  </div>
+  <div class="w_1200 margin_center margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_02_pc.webp?v=1732604970" alt="" />
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_02.webp?v=1732605002" alt="" />
+  </div>
+  <div class="ltv-3500pro_costomer_reviews w_1200 margin_center">
+    <div class="header">
+      Reviews by Top Influencers
+    </div>
+    <div class="youtube_container swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide youtube_video_item">
+          <iframe src="https://www.youtube.com/embed/ev9jbrMdeFQ" title="Upgrading my TV to a 150-inch LASER PROJECTOR! [AWOL Vision LTV-3500 Pro]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="swiper-slide youtube_video_item">
+          <iframe src="https://www.youtube.com/embed/YkKQRr7FRkw" title="120&quot; AWOL Floor Rising Screen w/LTV-3500 Pro 3D Laser TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="swiper_container">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+  <div class="margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_03_pc.webp?v=1732010873" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_03.webp?v=1732010890" alt="">
+  </div>
+  <div class="w_1200 margin_center margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_04_pc.webp?v=1731984451" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_04.webp?v=1731897470" alt="">
+  </div>
+  <div class="w_1200 margin_center margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_05_pc.webp?v=1731984451" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_05.webp?v=1731927012" alt="">
+  </div>
+  <div class="w_1200 margin_center margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_06_pc.webp?v=1731984451" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_06.webp?v=1731897470" alt="">
+  </div>
+  <div class="w_1200 margin_center margin-top-40">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_07_pc.webp?v=1731984451" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_07.webp?v=1731897470" alt="">
+  </div>
+  <div class="margin-top-120">
+    <div class="w_1200 margin_center pc">
+      <img class="normal_img" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_title_02.png?v=1732009654" alt="">
+    </div>
+    <img class="normal_img margin-top-60 no_padding pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_08_pc.webp?v=1732008385" alt="">
+    <img class="normal_img no_padding mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_08.webp?v=1731897470" alt="">
+  </div>
+  <div class="ltv-3500pro_container_inner one w_1200 margin_center margin-top-120">
+    <div class="ltv-3500pro_swiper_01 swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ltv-3500pro_swiper_01_item">
+          <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_09_pc.webp?v=1731984451" alt="">
+          <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_09.webp?v=1731897470" alt="">
+          <div class="item_desc">
+            Exhibits the lowest-ever large screen time lag of 8ms to ensure that all your gaming action is real-time.
+          </div>
+        </div>
+        <div class="swiper-slide ltv-3500pro_swiper_01_item">
+          <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_10_pc.webp?v=1731984451" alt="">
+          <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_10.webp?v=1731897470" alt="">
+          <div class="item_desc">
+            With movie mode, the AWOL delivers the original 24Hz to the screen without adding extra frames or 3:2 pulldown judde,display movies exactly as the director intended. 
+          </div>
+        </div>
+        <div class="swiper-slide ltv-3500pro_swiper_01_item">
+          <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_11_pc.webp?v=1731984451" alt="">
+          <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_11.webp?v=1731897470" alt="">
+          <div class="item_desc">
+            By employing advanced height virtualization techniques on top of traditional stereo,AWOL deliver an Immersion audio experience.
+          </div> 
+        </div>
+      </div>
+      <div>
+        <div class="swiper_container">
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="margin-top-120">
+    <div class="w_1200 margin_center pc">
+      <img class="normal_img" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_title.png?v=1732009083" alt="">
+    </div>
+    <img class="normal_img no_padding margin-top-60 pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_12_pc.webp?v=1732008400" alt="">
+    <img class="normal_img no_padding mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_12.webp?v=1731927000" alt="">
+  </div>
+  <div class="w_1200 margin_center margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_13_pc.webp?v=1731984451" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_13.webp?v=1731897470" alt="">
+  </div>
+  <div class="ltv-3500pro_container_inner two w_1200 margin_center margin-top-120">
+    <div class="ltv-3500pro_swiper_02 swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ltv-3500pro_swiper_01_item">
+          <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_14_pc.webp?v=1731984451" alt="">
+          <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_14.webp?v=1731897470" alt="">
+          <div class="item_desc">
+            The unique feature provides you with the flexibility to fine-tune the color settings for optimal precision, display accurate lifelike colors to best match your viewing environment.
+          </div>
+        </div>
+        <div class="swiper-slide ltv-3500pro_swiper_01_item">
+          <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_15_pc.webp?v=1731984451" alt="">
+          <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_15.webp?v=1731897470" alt="">
+          <div class="item_desc">
+            Effortlessly zoom to the ideal size, then use our 8-Point Keystone to fine-tune each corner for a perfectly aligned image that fits seamlessly to your screen—even in challenging setups.
+          </div>
+        </div>
+        <div class="swiper-slide ltv-3500pro_swiper_01_item">
+          <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_16_pc.webp?v=1731984452" alt="">
+          <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_16.webp?v=1731897470" alt="">
+          <div class="item_desc">
+            Compared to an LED TV, the power consumption of the LTV-3500 Pro is only 300W making it only 1/10 of an LED TV's power consumption, save at least $73 a year.
+          </div> 
+        </div>
+      </div>
+      <div>
+        <div class="swiper_container">
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w_1200 margin_center margin-top-120">
+    <img class="normal_img pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_17_pc.webp?v=1731984452" alt="">
+    <img class="normal_img mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro_17.webp?v=1731926988" alt="">
+  </div>
+  <div class="choose_img w_1200 margin_center">
+    <div class="header">
+      Choose the Right Screen<br>
+      to Double the Image Quality
+    </div>
+    <div class="choose_img_container">
+      <img class="pc" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/3500pro_18_pc.webp?v=1731984452" alt="">
+      <img class="mobile" src="https://cdn.shopify.com/s/files/1/0554/7445/4576/files/new-3500pro-018.jpg?v=1731917650" alt="">
+    </div>
+  </div>
+</div>
+<script src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+<script>
+  var mySwiper_four = new Swiper(".youtube_container", {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    //   effect: 'fade',
+    pagination: {
+      el: '.youtube_container .swiper-pagination',
+    },
+    navigation: {
+      nextEl: ".youtube_container .swiper-button-next",
+      prevEl: ".youtube_container .swiper-button-prev",
+    }
+  })
+
+  var swiper_01 = new Swiper(".ltv-3500pro_swiper_01", {
+    // loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    //   effect: 'fade',
+    pagination: {
+      el: ".ltv-3500pro_swiper_01 .swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+      },
+      renderBullet: function (index, className) {
+      switch (index) {
+        case 0:
+        text = "Real-time Gaming Engine";
+        break;
+        case 1:
+        text = "24 FPS for Cinema Purists";
+        break;
+        case 2:
+        text = "Cinema Quality Sound";
+        break;
+      }
+      return '<span class="' + className + '">' + text + "</span>";
+      },
+    },
+  })
+  var swiper_02 = new Swiper(".ltv-3500pro_swiper_02", {
+    // loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    //   effect: 'fade',
+    pagination: {
+      el: ".ltv-3500pro_swiper_02 .swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+      },
+      renderBullet: function (index, className) {
+      switch (index) {
+        case 0:
+        text = "Super Energy Saving";
+        break;
+        case 1:
+        text = "Color Management System";
+        break;
+        case 2:
+        text = "Focus & 8-Point Keystone";
+        break;
+      }
+      return '<span class="' + className + '">' + text + "</span>";
+      },
+    },
+  })
+</script>
